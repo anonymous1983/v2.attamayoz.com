@@ -1,0 +1,26 @@
+/* block top search */
+.search_block_top {
+	position:absolute;
+	top:44px;
+	right:0;
+}
+.search_block_top p {padding:0;}
+.search_block_top .search_query_top {
+	padding:0 10px;
+	height:27px;
+	width:377px;
+	border:0;
+	color:#cccccc;
+	float: left;
+}
+
+.search_block_top .button {
+	border:none;
+	border-radius:0;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(img/bg_search_submit.png) repeat-x 0 0 #101010;
+	float: left;
+	height: 25px;
+}
+

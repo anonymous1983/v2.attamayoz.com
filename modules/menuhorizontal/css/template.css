@@ -1,0 +1,73 @@
+ul, ol {list-style-image:none;list-style-position:outside;list-style-type:none; margin:0; padding:0;}
+ul.list_verticale_left li{ float:left;}
+ul.list_verticale_right li{ float:right;}
+
+/****************************************************************************************************/
+/*		 							LOGO & MENU														*/
+/****************************************************************************************************/
+.logomenus .menus{ top:0; right:-70px; width:735px; height:96px; background:url(img/bg_menu.png) left top no-repeat;}
+
+.logomenus .menus #menu1{ height:36px; margin-left:3px;}
+.logomenus .menus ul.menu1 li{ line-height:36px; color:#FFF; /*background-image:url(img/separateur_menu1.png); background-position:100% 14px; background-repeat:no-repeat;*/ }
+.logomenus .menus ul.menu1 li.end{ background-image:none;}
+.logomenus .menus ul.menu1 li a{display:block; padding:5px 18px; margin:0; line-height:26px; text-transform:capitalize; color:#ffffff;}
+.logomenus .menus ul.menu1 li a:hover{ color:#ef017d; text-decoration:none;}
+.logomenus .menus ul.menu1 li.child01:hover{ background-color:#ef017d;}
+.logomenus .menus ul.menu1 li.child01 a:hover{ background-color:#ef017d; text-decoration:none;}
+.logomenus .menus ul.menu1 li.child01 a:hover span{ color:#FFF; text-decoration:none;}
+.logomenus .menus ul.menu1 li.child01 a span{ color:#FFF; text-shadow: 0 1px 1px #333;}
+.logomenus .menus ul.menu1 li.child01 a.current span{ color:#ef017d;}
+.logomenus .menus ul.menu1 li.child01 a.current:hover span{ color:#FFF;}
+.logomenus .menus ul.menu1 li ul.ul_sousmenutop{ display:none; width:946px; position:absolute; left:-298px; z-index:200; margin-top:0px; padding:5px; background:#FFF url(img/bgList.jpg) bottom left repeat-x; border-width:20px 2px 2px 2px; border-style:solid; border-color:#ef017d; }
+.logomenus .menus ul.menu1 li ul.ul_sousmenutop.large{ padding:0px; width:956px; }
+.logomenus .menus ul.menu1 li.child01:hover ul.ul_sousmenutop{ display:block;}
+.logomenus .menus ul.menu1 ul.ul_sousmenutop li a{display:block; padding:0; margin:0; line-height:14px; text-transform:capitalize; color:#7D7D7D;}
+.logomenus .menus ul.menu1 ul.ul_sousmenutop li a:hover{ background-color:#d2d2d2;}
+.ul_sousmenutop .parList .block{ float: left; line-height: 14px; width: 113px; margin-right: 6px; }
+.ul_sousmenutop .parList .block.end{ margin-right:0;}
+.ul_sousmenutop .parList .block .alphabet{border-bottom: 1px solid #ef017d; color:#ef017d;}
+.ul_sousmenutop .universList a img{ width:478px; }
+.ul_sousmenutop .universList a{ float:left;}
+.ul_sousmenutop .universList a:hover{ opacity : 0.8; -moz-opacity : 0.8; -ms-filter: "alpha(opacity=80)"; /* IE 8 */  filter : alpha(opacity=80); /* IE < 8 */ }
+
+/*border-color:#C30040;
+border-style:solid;
+border-width:20px 2px 2px;*/
+
+.logomenus .menus #menu2{ /*height:70px;*/ margin-left:3px;}
+.logomenus .menus ul.menu2 li.child01{ height:69px;}
+.logomenus .menus ul.menu2 li.child01.current{ background-image:url(img/bg_menuandhover.png); background-repeat:no-repeat; background-position:top left;}
+.logomenus .menus ul.menu2 li.child01:hover{background-image:url(img/bg_menuandhover.png); background-repeat:no-repeat; background-position:top center;}
+
+/*.logomenus .menus ul.menu2 li.child01:hover{ background:url(img/flesh_menu.png) bottom center no-repeat;}*/
+.logomenus .menus ul.menu2 li.end{}
+.logomenus .menus ul.menu2 li a.a_child01{display:block; padding:5px 26px; margin:0; font-family:Verdana; font-size:30px; font-weight:bolder; letter-spacing:-2.5px; line-height:46px; text-transform:capitalize;}
+.logomenus .menus ul.menu2 li a.a_child01 span{ color:#FFF; text-shadow: 0 1px 1px #111;}
+.logomenus .menus ul.menu2 li a.a_child01:hover,.logomenus .menus ul.menu2 li a.a_child01.current{ color:#FFF; text-decoration:none;/* background-color:#ef017d;*/ /*background:url(img/bg_menu2.png) repeat; */}
+/*.logomenus .menus ul.menu2 li ul.ul_w960h360{ display:none; width:960px; height:360px; position:absolute; left:-298px; z-index:500; margin-top:14px;}*/
+.logomenus .menus ul.menu2 li ul.ul_w960h360{ display:none; width:960px; height:360px; position:absolute; left:-320px; z-index:500; margin-top:9px; padding:5px; background-position:center center; background-repeat:no-repeat;}
+.logomenus .menus ul.menu2 li:hover ul.ul_w960h360{ display:block;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02{ float:none; margin-left:7px; width:301px; height:56px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02.first{ float:none; margin-top:10px; }
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02.end{ float:none; margin-bottom:10px; }
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02 a.a_child02{ font-size:20px; height:18px; padding:19px 20px 19px 5px; text-transform:uppercase; width:276px; text-align:center; display:block; font-weight:normal; color:#BBB; background:url(img/puce-child02-a.gif) right center no-repeat; font-family:'Dosis', sans-serif;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02:hover{ background:url(img/bg-child02-hover.gif); color:#FFF;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li.child02 a.a_child02:hover{  background:url(img/puce-child02-a-hover.gif) right center no-repeat; text-decoration:none;} 
+
+.logomenus .menus ul.menu2 li ul.ul_w960h360 ul.ul_w648{ display:none; width:640px; position:absolute; z-index:500; background:url(img/bg-child02-hover.gif); left:308px; top:10px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 li{width:640px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li:hover ul.ul_w648{ display:block;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li:hover ul.ul_w648 a{ display:block; text-decoration:none;}
+
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-mode{ background:#6E6E6E; display:block; margin:7px; padding-right:7px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-mode .layer-actif-colonnes{ width:460px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-titre {color:#FFFFFF; display:block; font-size:12px; font-weight:700; height:16px; margin-bottom:15px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes a { background:transparent url(img/layer-puce-blanche.gif) no-repeat scroll left center; color:#FFFFFF; display:block; font-size:11px; line-height:15px; margin:0; padding-left:6px; text-decoration:none; }
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes-a { float:left; margin:5px; width:140px; }
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes-b { float:left; margin:5px; width:140px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes-c { float:right; margin:5px; width:140px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes-dh {float:left; margin-right:40px; margin-top:3px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes-db {float:left; margin-top:18px; padding-bottom:9px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-opes { float:right; padding-bottom:7px;}
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-opes a { background:transparent none repeat scroll 0 0; clear:both; display:block; float:right; margin:7px 0 0; padding:0; }
+.logomenus .menus ul.menu2 ul.ul_w960h360 li ul.ul_w648 .layer-actif-colonnes a:hover{ text-decoration:underline; color:#000;}

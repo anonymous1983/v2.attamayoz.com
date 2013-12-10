@@ -1,0 +1,7 @@
+/cache/
+/cache/*
+/img/
+/img/*
+/img/tmp/*
+/log/
+/log/*
